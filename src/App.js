@@ -1,25 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import { Charactercontext } from './components/CharacterContext'
+import Characters from './components/Characters'
+import {useQuery} from '@apollo/client'
+import { GET_CHARACTERS } from './graphql/query/query'
+import 'antd/dist/antd.css'
 
 function App() {
+
+  const [page, setPage] = useState(10)
+  const {loading, error, data} = useQuery(GET_CHARACTERS, {
+    variables: {page}
+  })
+
+  // console.log(loading,error,data)
+
+  const character = {
+    loading,
+    error,
+    data,
+    page,
+    setPage
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Charactercontext.Provider value={character}>
+      <Characters />
+    </Charactercontext.Provider>
   );
 }
 

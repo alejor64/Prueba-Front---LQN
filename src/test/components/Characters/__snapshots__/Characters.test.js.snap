@@ -1,0 +1,2042 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <Characters /> Debe renderizar el componente <Characters/> con Data 1`] = `
+Array [
+  <div>
+    <div>
+      <div
+        className="ant-row"
+        style={Object {}}
+      >
+        <div
+          className="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-24 ant-col-lg-8"
+          style={Object {}}
+        >
+          <h1>
+            Characters
+          </h1>
+        </div>
+        <div
+          className="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-24 ant-col-lg-16"
+          style={Object {}}
+        >
+          <div
+            className="ant-row"
+            style={Object {}}
+          >
+            <div
+              className="ant-col ant-col-11"
+              style={Object {}}
+            >
+              <img
+                alt="Darth Vader"
+                className="characters_img-darth"
+                src="darthVader.png"
+              />
+            </div>
+            <div
+              className="ant-col ant-col-2"
+              style={Object {}}
+            >
+              <img
+                alt="Skywalker"
+                className="characters_img-sky"
+                src="skywalker.png"
+              />
+            </div>
+            <div
+              className="ant-col ant-col-11"
+              style={Object {}}
+            >
+              <img
+                alt="Yoda"
+                className="characters_img-yoda"
+                src="yodaLaser.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ant-row"
+        style={Object {}}
+      >
+        <div
+          className="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-12 ant-col-lg-4"
+          style={Object {}}
+        >
+          <div>
+            <button
+              className="ant-btn characters_btn"
+              onClick={[Function]}
+              type="button"
+            >
+              <span
+                key=".0"
+              >
+                Before 
+              </span>
+              <span
+                aria-label="left-circle"
+                className="anticon anticon-left-circle"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  className=""
+                  data-icon="left-circle"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  key="svg-left-circle"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M512 140c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm104 240.9c0 10.3-4.9 19.9-13.2 25.9L457.4 512l145.4 105.1c8.3 6 13.2 15.7 13.2 25.9v46.9c0 6.5-7.4 10.3-12.7 6.5l-246-178a7.95 7.95 0 010-12.9l246-178c5.3-3.8 12.7 0 12.7 6.5v46.9z"
+                    fill="#fff3f0"
+                    key="svg-left-circle-svg-0"
+                  />
+                  <path
+                    d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                    fill="#d72e21"
+                    key="svg-left-circle-svg-1"
+                  />
+                  <path
+                    d="M603.3 327.5l-246 178a7.95 7.95 0 000 12.9l246 178c5.3 3.8 12.7 0 12.7-6.5V643c0-10.2-4.9-19.9-13.2-25.9L457.4 512l145.4-105.2c8.3-6 13.2-15.6 13.2-25.9V334c0-6.5-7.4-10.3-12.7-6.5z"
+                    fill="#d72e21"
+                    key="svg-left-circle-svg-2"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          className="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-12 ant-col-lg-4"
+          style={Object {}}
+        >
+          <div
+            className="characters_next-btn"
+          >
+            <button
+              className="ant-btn characters_btn"
+              onClick={[Function]}
+              type="button"
+            >
+              <span
+                key=".0"
+              >
+                Next 
+              </span>
+              <span
+                aria-label="right-circle"
+                className="anticon anticon-right-circle"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  className=""
+                  data-icon="right-circle"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  key="svg-right-circle"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M512 140c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm154.7 378.4l-246 178c-5.3 3.8-12.7 0-12.7-6.5V643c0-10.2 4.9-19.9 13.2-25.9L566.6 512 421.2 406.8c-8.3-6-13.2-15.6-13.2-25.9V334c0-6.5 7.4-10.3 12.7-6.5l246 178c4.4 3.2 4.4 9.7 0 12.9z"
+                    fill="#fff3f0"
+                    key="svg-right-circle-svg-0"
+                  />
+                  <path
+                    d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                    fill="#d72e21"
+                    key="svg-right-circle-svg-1"
+                  />
+                  <path
+                    d="M666.7 505.5l-246-178c-5.3-3.8-12.7 0-12.7 6.5v46.9c0 10.3 4.9 19.9 13.2 25.9L566.6 512 421.2 617.1c-8.3 6-13.2 15.7-13.2 25.9v46.9c0 6.5 7.4 10.3 12.7 6.5l246-178c4.4-3.2 4.4-9.7 0-12.9z"
+                    fill="#d72e21"
+                    key="svg-right-circle-svg-2"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ant-row"
+        style={Object {}}
+      >
+        <div
+          className="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-24 ant-col-lg-8"
+          style={Object {}}
+        >
+          <div
+            className="ant-list ant-list-split ant-list-bordered list_ul"
+          >
+            <div
+              className="ant-spin-nested-loading"
+            >
+              <div
+                className="ant-spin-container"
+                key="container"
+              >
+                <ul
+                  className="ant-list-items"
+                >
+                  <li
+                    className="ant-list-item ant-list-item-no-flex list_item"
+                    onClick={[Function]}
+                  >
+                    Luke Skywalker
+                    <button
+                      className="ant-btn"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <span
+                        key=".0"
+                      >
+                        Details
+                      </span>
+                    </button>
+                  </li>
+                  <li
+                    className="ant-list-item ant-list-item-no-flex list_item"
+                    onClick={[Function]}
+                  >
+                    C-3PO
+                    <button
+                      className="ant-btn"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <span
+                        key=".0"
+                      >
+                        Details
+                      </span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-24 ant-col-lg-16"
+          style={Object {}}
+        >
+          <div
+            className="characterInfo_container"
+          >
+            <div
+              className="ant-col ant-col-24"
+              style={Object {}}
+            >
+              <div
+                className="characterInfo_title"
+              >
+                <h1>
+                  Luke Skywalker
+                </h1>
+              </div>
+            </div>
+            <div
+              className="ant-row"
+              style={Object {}}
+            >
+              <div
+                className="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-12 ant-col-lg-12"
+                style={Object {}}
+              >
+                <h2>
+                  Character Info
+                </h2>
+                <p>
+                  <span>
+                    Gender:
+                  </span>
+                   
+                  male
+                </p>
+                <p>
+                  <span>
+                    Homeworld:
+                  </span>
+                   
+                  Tatooine
+                </p>
+              </div>
+              <div
+                className="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-12 ant-col-lg-12"
+                style={Object {}}
+              >
+                <h2>
+                  Where do I appear?
+                </h2>
+                Array [
+                  <li
+                    className="film_li"
+                    key="ZmlsbXM6MQ=="
+                  >
+                    <div
+                      className="ant-row"
+                      style={Object {}}
+                    >
+                      <div
+                        className="ant-col ant-col-xs-17 ant-col-sm-20 ant-col-md-18 ant-col-lg-17"
+                        style={Object {}}
+                      >
+                        A New Hope
+                      </div>
+                      <div
+                        className="ant-col ant-col-xs-4 ant-col-sm-4 ant-col-md-6 ant-col-lg-7"
+                        style={Object {}}
+                      >
+                        Array [
+                          <button
+                            className="ant-btn filmsButtonInfo_btn"
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <span
+                              key=".0"
+                            >
+                              About...
+                            </span>
+                          </button>,
+                          "",
+                        ]
+                      </div>
+                    </div>
+                  </li>,
+                  <li
+                    className="film_li"
+                    key="ZmlsbXM6Mg=="
+                  >
+                    <div
+                      className="ant-row"
+                      style={Object {}}
+                    >
+                      <div
+                        className="ant-col ant-col-xs-17 ant-col-sm-20 ant-col-md-18 ant-col-lg-17"
+                        style={Object {}}
+                      >
+                        The Empire Strikes Back
+                      </div>
+                      <div
+                        className="ant-col ant-col-xs-4 ant-col-sm-4 ant-col-md-6 ant-col-lg-7"
+                        style={Object {}}
+                      >
+                        Array [
+                          <button
+                            className="ant-btn filmsButtonInfo_btn"
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <span
+                              key=".0"
+                            >
+                              About...
+                            </span>
+                          </button>,
+                          "",
+                        ]
+                      </div>
+                    </div>
+                  </li>,
+                  <li
+                    className="film_li"
+                    key="ZmlsbXM6Mw=="
+                  >
+                    <div
+                      className="ant-row"
+                      style={Object {}}
+                    >
+                      <div
+                        className="ant-col ant-col-xs-17 ant-col-sm-20 ant-col-md-18 ant-col-lg-17"
+                        style={Object {}}
+                      >
+                        Return of the Jedi
+                      </div>
+                      <div
+                        className="ant-col ant-col-xs-4 ant-col-sm-4 ant-col-md-6 ant-col-lg-7"
+                        style={Object {}}
+                      >
+                        Array [
+                          <button
+                            className="ant-btn filmsButtonInfo_btn"
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <span
+                              key=".0"
+                            >
+                              About...
+                            </span>
+                          </button>,
+                          "",
+                        ]
+                      </div>
+                    </div>
+                  </li>,
+                  <li
+                    className="film_li"
+                    key="ZmlsbXM6Ng=="
+                  >
+                    <div
+                      className="ant-row"
+                      style={Object {}}
+                    >
+                      <div
+                        className="ant-col ant-col-xs-17 ant-col-sm-20 ant-col-md-18 ant-col-lg-17"
+                        style={Object {}}
+                      >
+                        Revenge of the Sith
+                      </div>
+                      <div
+                        className="ant-col ant-col-xs-4 ant-col-sm-4 ant-col-md-6 ant-col-lg-7"
+                        style={Object {}}
+                      >
+                        Array [
+                          <button
+                            className="ant-btn filmsButtonInfo_btn"
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            <span
+                              key=".0"
+                            >
+                              About...
+                            </span>
+                          </button>,
+                          "",
+                        ]
+                      </div>
+                    </div>
+                  </li>,
+                ]
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="ant-col ant-col-24"
+    style={Object {}}
+  >
+    <div
+      className="footer_footer"
+    >
+      <div
+        className="ant-carousel"
+      >
+        <div
+          className="slick-slider slick-initialized"
+          dir="ltr"
+        >
+          <div
+            className="slick-list"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={null}
+            onMouseMove={null}
+            onMouseUp={[Function]}
+            onTouchCancel={null}
+            onTouchEnd={[Function]}
+            onTouchMove={null}
+            onTouchStart={[Function]}
+            style={Object {}}
+          >
+            <div
+              className="slick-track"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                  "WebkitTransition": "",
+                  "msTransform": "translateX(0px)",
+                  "opacity": 1,
+                  "transform": "translate3d(0px, 0px, 0px)",
+                  "transition": "",
+                }
+              }
+            >
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={-1}
+                key="precloned6--1"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="66"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="666"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      It’s a trap!
+                      "
+                    </h2>
+                    <p>
+                      Admiral Ackbar
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active slick-current"
+                data-index={0}
+                key="original0-0"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="0"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="0"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      It’s not my fault
+                      "
+                    </h2>
+                    <p>
+                      Han Solo
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={1}
+                key="original1-1"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="11"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="111"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      Your focus determines your reality.
+                      "
+                    </h2>
+                    <p>
+                      Qui-Gon Jinn
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={2}
+                key="original2-2"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="22"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="222"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      Do. Or do not. There is no try.
+                      "
+                    </h2>
+                    <p>
+                      Yoda
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={3}
+                key="original3-3"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="33"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="333"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      Somebody has to save our skins.
+                      "
+                    </h2>
+                    <p>
+                      Leia Organa
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={4}
+                key="original4-4"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="44"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="444"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      In my experience there is no such thing as luck.
+                      "
+                    </h2>
+                    <p>
+                      Obi-Wan Kenobi
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={5}
+                key="original5-5"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="55"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="555"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      I find your lack of faith disturbing.
+                      "
+                    </h2>
+                    <p>
+                      Darth Vader
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={6}
+                key="original6-6"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="66"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="666"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      It’s a trap!
+                      "
+                    </h2>
+                    <p>
+                      Admiral Ackbar
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={7}
+                key="postcloned0-7"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="0"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="0"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      It’s not my fault
+                      "
+                    </h2>
+                    <p>
+                      Han Solo
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={8}
+                key="postcloned1-8"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="11"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="111"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      Your focus determines your reality.
+                      "
+                    </h2>
+                    <p>
+                      Qui-Gon Jinn
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={9}
+                key="postcloned2-9"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="22"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="222"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      Do. Or do not. There is no try.
+                      "
+                    </h2>
+                    <p>
+                      Yoda
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={10}
+                key="postcloned3-10"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="33"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="333"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      Somebody has to save our skins.
+                      "
+                    </h2>
+                    <p>
+                      Leia Organa
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={11}
+                key="postcloned4-11"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="44"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="444"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      In my experience there is no such thing as luck.
+                      "
+                    </h2>
+                    <p>
+                      Obi-Wan Kenobi
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={12}
+                key="postcloned5-12"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="55"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="555"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      I find your lack of faith disturbing.
+                      "
+                    </h2>
+                    <p>
+                      Darth Vader
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={13}
+                key="postcloned6-13"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="66"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="666"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      It’s a trap!
+                      "
+                    </h2>
+                    <p>
+                      Admiral Ackbar
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul
+            className="slick-dots slick-dots-bottom"
+            onMouseEnter={null}
+            onMouseLeave={null}
+            onMouseOver={null}
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <li
+              className="slick-active"
+              key="0"
+            >
+              <button
+                onClick={[Function]}
+              >
+                1
+              </button>
+            </li>
+            <li
+              className=""
+              key="1"
+            >
+              <button
+                onClick={[Function]}
+              >
+                2
+              </button>
+            </li>
+            <li
+              className=""
+              key="2"
+            >
+              <button
+                onClick={[Function]}
+              >
+                3
+              </button>
+            </li>
+            <li
+              className=""
+              key="3"
+            >
+              <button
+                onClick={[Function]}
+              >
+                4
+              </button>
+            </li>
+            <li
+              className=""
+              key="4"
+            >
+              <button
+                onClick={[Function]}
+              >
+                5
+              </button>
+            </li>
+            <li
+              className=""
+              key="5"
+            >
+              <button
+                onClick={[Function]}
+              >
+                6
+              </button>
+            </li>
+            <li
+              className=""
+              key="6"
+            >
+              <button
+                onClick={[Function]}
+              >
+                7
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Pruebas en el componente <Characters /> Debe renderizar el componente <Characters/> sin DATA 1`] = `
+Array [
+  <div>
+    <div>
+      <div
+        className="ant-row"
+        style={Object {}}
+      >
+        <div
+          className="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-24 ant-col-lg-8"
+          style={Object {}}
+        >
+          <h1>
+            Characters
+          </h1>
+        </div>
+        <div
+          className="ant-col ant-col-xs-24 ant-col-sm-24 ant-col-md-24 ant-col-lg-16"
+          style={Object {}}
+        >
+          <div
+            className="ant-row"
+            style={Object {}}
+          >
+            <div
+              className="ant-col ant-col-11"
+              style={Object {}}
+            >
+              <img
+                alt="Darth Vader"
+                className="characters_img-darth"
+                src="darthVader.png"
+              />
+            </div>
+            <div
+              className="ant-col ant-col-2"
+              style={Object {}}
+            >
+              <img
+                alt="Skywalker"
+                className="characters_img-sky"
+                src="skywalker.png"
+              />
+            </div>
+            <div
+              className="ant-col ant-col-11"
+              style={Object {}}
+            >
+              <img
+                alt="Yoda"
+                className="characters_img-yoda"
+                src="yodaLaser.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ant-row"
+        style={Object {}}
+      >
+        <div
+          className="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-12 ant-col-lg-4"
+          style={Object {}}
+        >
+          <div>
+            <button
+              className="ant-btn characters_btn"
+              onClick={[Function]}
+              type="button"
+            >
+              <span
+                key=".0"
+              >
+                Before 
+              </span>
+              <span
+                aria-label="left-circle"
+                className="anticon anticon-left-circle"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  className=""
+                  data-icon="left-circle"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  key="svg-left-circle"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M512 140c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm104 240.9c0 10.3-4.9 19.9-13.2 25.9L457.4 512l145.4 105.1c8.3 6 13.2 15.7 13.2 25.9v46.9c0 6.5-7.4 10.3-12.7 6.5l-246-178a7.95 7.95 0 010-12.9l246-178c5.3-3.8 12.7 0 12.7 6.5v46.9z"
+                    fill="#fff3f0"
+                    key="svg-left-circle-svg-0"
+                  />
+                  <path
+                    d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                    fill="#d72e21"
+                    key="svg-left-circle-svg-1"
+                  />
+                  <path
+                    d="M603.3 327.5l-246 178a7.95 7.95 0 000 12.9l246 178c5.3 3.8 12.7 0 12.7-6.5V643c0-10.2-4.9-19.9-13.2-25.9L457.4 512l145.4-105.2c8.3-6 13.2-15.6 13.2-25.9V334c0-6.5-7.4-10.3-12.7-6.5z"
+                    fill="#d72e21"
+                    key="svg-left-circle-svg-2"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          className="ant-col ant-col-xs-12 ant-col-sm-12 ant-col-md-12 ant-col-lg-4"
+          style={Object {}}
+        >
+          <div
+            className="characters_next-btn"
+          >
+            <button
+              className="ant-btn characters_btn"
+              onClick={[Function]}
+              type="button"
+            >
+              <span
+                key=".0"
+              >
+                Next 
+              </span>
+              <span
+                aria-label="right-circle"
+                className="anticon anticon-right-circle"
+                role="img"
+              >
+                <svg
+                  aria-hidden="true"
+                  className=""
+                  data-icon="right-circle"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  key="svg-right-circle"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <path
+                    d="M512 140c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm154.7 378.4l-246 178c-5.3 3.8-12.7 0-12.7-6.5V643c0-10.2 4.9-19.9 13.2-25.9L566.6 512 421.2 406.8c-8.3-6-13.2-15.6-13.2-25.9V334c0-6.5 7.4-10.3 12.7-6.5l246 178c4.4 3.2 4.4 9.7 0 12.9z"
+                    fill="#fff3f0"
+                    key="svg-right-circle-svg-0"
+                  />
+                  <path
+                    d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                    fill="#d72e21"
+                    key="svg-right-circle-svg-1"
+                  />
+                  <path
+                    d="M666.7 505.5l-246-178c-5.3-3.8-12.7 0-12.7 6.5v46.9c0 10.3 4.9 19.9 13.2 25.9L566.6 512 421.2 617.1c-8.3 6-13.2 15.7-13.2 25.9v46.9c0 6.5 7.4 10.3 12.7 6.5l246-178c4.4-3.2 4.4-9.7 0-12.9z"
+                    fill="#d72e21"
+                    key="svg-right-circle-svg-2"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <span
+        aria-label="sync"
+        className="anticon anticon-sync"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          className="anticon-spin"
+          data-icon="sync"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          key="svg-sync"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M168 504.2c1-43.7 10-86.1 26.9-126 17.3-41 42.1-77.7 73.7-109.4S337 212.3 378 195c42.4-17.9 87.4-27 133.9-27s91.5 9.1 133.8 27A341.5 341.5 0 01755 268.8c9.9 9.9 19.2 20.4 27.8 31.4l-60.2 47a8 8 0 003 14.1l175.7 43c5 1.2 9.9-2.6 9.9-7.7l.8-180.9c0-6.7-7.7-10.5-12.9-6.3l-56.4 44.1C765.8 155.1 646.2 92 511.8 92 282.7 92 96.3 275.6 92 503.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8zm756 7.8h-60c-4.4 0-7.9 3.5-8 7.8-1 43.7-10 86.1-26.9 126-17.3 41-42.1 77.8-73.7 109.4A342.45 342.45 0 01512.1 856a342.24 342.24 0 01-243.2-100.8c-9.9-9.9-19.2-20.4-27.8-31.4l60.2-47a8 8 0 00-3-14.1l-175.7-43c-5-1.2-9.9 2.6-9.9 7.7l-.7 181c0 6.7 7.7 10.5 12.9 6.3l56.4-44.1C258.2 868.9 377.8 932 512.2 932c229.2 0 415.5-183.7 419.8-411.8a8 8 0 00-8-8.2z"
+            key="svg-sync-svg-0"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>,
+  <div
+    className="ant-col ant-col-24"
+    style={Object {}}
+  >
+    <div
+      className="footer_footer"
+    >
+      <div
+        className="ant-carousel"
+      >
+        <div
+          className="slick-slider slick-initialized"
+          dir="ltr"
+        >
+          <div
+            className="slick-list"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={null}
+            onMouseMove={null}
+            onMouseUp={[Function]}
+            onTouchCancel={null}
+            onTouchEnd={[Function]}
+            onTouchMove={null}
+            onTouchStart={[Function]}
+            style={Object {}}
+          >
+            <div
+              className="slick-track"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                  "WebkitTransition": "",
+                  "msTransform": "translateX(0px)",
+                  "opacity": 1,
+                  "transform": "translate3d(0px, 0px, 0px)",
+                  "transition": "",
+                }
+              }
+            >
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={-1}
+                key="precloned6--1"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="66"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="666"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      It’s a trap!
+                      "
+                    </h2>
+                    <p>
+                      Admiral Ackbar
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active slick-current"
+                data-index={0}
+                key="original0-0"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="0"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="0"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      It’s not my fault
+                      "
+                    </h2>
+                    <p>
+                      Han Solo
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={1}
+                key="original1-1"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="11"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="111"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      Your focus determines your reality.
+                      "
+                    </h2>
+                    <p>
+                      Qui-Gon Jinn
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={2}
+                key="original2-2"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="22"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="222"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      Do. Or do not. There is no try.
+                      "
+                    </h2>
+                    <p>
+                      Yoda
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={3}
+                key="original3-3"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="33"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="333"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      Somebody has to save our skins.
+                      "
+                    </h2>
+                    <p>
+                      Leia Organa
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={4}
+                key="original4-4"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="44"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="444"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      In my experience there is no such thing as luck.
+                      "
+                    </h2>
+                    <p>
+                      Obi-Wan Kenobi
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={5}
+                key="original5-5"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="55"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="555"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      I find your lack of faith disturbing.
+                      "
+                    </h2>
+                    <p>
+                      Darth Vader
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={6}
+                key="original6-6"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="66"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="666"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      It’s a trap!
+                      "
+                    </h2>
+                    <p>
+                      Admiral Ackbar
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={7}
+                key="postcloned0-7"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="0"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="0"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      It’s not my fault
+                      "
+                    </h2>
+                    <p>
+                      Han Solo
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={8}
+                key="postcloned1-8"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="11"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="111"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      Your focus determines your reality.
+                      "
+                    </h2>
+                    <p>
+                      Qui-Gon Jinn
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={9}
+                key="postcloned2-9"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="22"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="222"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      Do. Or do not. There is no try.
+                      "
+                    </h2>
+                    <p>
+                      Yoda
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={10}
+                key="postcloned3-10"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="33"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="333"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      Somebody has to save our skins.
+                      "
+                    </h2>
+                    <p>
+                      Leia Organa
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={11}
+                key="postcloned4-11"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="44"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="444"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      In my experience there is no such thing as luck.
+                      "
+                    </h2>
+                    <p>
+                      Obi-Wan Kenobi
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={12}
+                key="postcloned5-12"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="55"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="555"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      I find your lack of faith disturbing.
+                      "
+                    </h2>
+                    <p>
+                      Darth Vader
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={13}
+                key="postcloned6-13"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div
+                  key="66"
+                >
+                  <div
+                    className="footer_contentStyle"
+                    key="666"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <h2>
+                      "
+                      It’s a trap!
+                      "
+                    </h2>
+                    <p>
+                      Admiral Ackbar
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul
+            className="slick-dots slick-dots-bottom"
+            onMouseEnter={null}
+            onMouseLeave={null}
+            onMouseOver={null}
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <li
+              className="slick-active"
+              key="0"
+            >
+              <button
+                onClick={[Function]}
+              >
+                1
+              </button>
+            </li>
+            <li
+              className=""
+              key="1"
+            >
+              <button
+                onClick={[Function]}
+              >
+                2
+              </button>
+            </li>
+            <li
+              className=""
+              key="2"
+            >
+              <button
+                onClick={[Function]}
+              >
+                3
+              </button>
+            </li>
+            <li
+              className=""
+              key="3"
+            >
+              <button
+                onClick={[Function]}
+              >
+                4
+              </button>
+            </li>
+            <li
+              className=""
+              key="4"
+            >
+              <button
+                onClick={[Function]}
+              >
+                5
+              </button>
+            </li>
+            <li
+              className=""
+              key="5"
+            >
+              <button
+                onClick={[Function]}
+              >
+                6
+              </button>
+            </li>
+            <li
+              className=""
+              key="6"
+            >
+              <button
+                onClick={[Function]}
+              >
+                7
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

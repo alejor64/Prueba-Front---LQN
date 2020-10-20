@@ -1,0 +1,46 @@
+h1 {
+    color: $textColor;
+}
+
+.characters_img-yoda {
+    height: 3.5rem;
+    float: right;
+    margin-right: 20px;
+}
+
+.characters_img-darth {
+    height: 3.5rem;
+}
+
+.characters_img-sky {
+    height: 3rem;
+    margin-top: 9px;
+    text-align: center;
+}
+
+.characters_next-btn {
+    float: right;
+    margin-right: 25px;
+}
+
+.characters_btn {
+    color: #d72e21;
+    background-color: rgba($color: $black, $alpha: 0.8);
+    margin-bottom: 15px;
+    &:hover{
+        color: #d72e21;
+        border: 1px solid lighten($color: #d72e21, $amount: 30);
+        box-shadow: 1px 2px #d72e21;
+        background-color: rgba($color: $black, $alpha: 0.9);
+    }
+    &:focus {
+        border: 1px solid lighten($color: #d72e21, $amount: 30);
+        background-color: rgba($color: $black, $alpha: 0.9);
+        color: #d72e21;
+    }
+}
+
+.ant-btn[disabled] {
+    color: #d72e21;
+    background-color: rgba($color: $black, $alpha: 0.7);
+}

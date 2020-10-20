@@ -1,0 +1,29 @@
+.list_ul {
+    margin: 0px 25px 10px 0px;
+    .list_item {
+        color: $textColor;
+        font-size: 16px;
+        display: flex;
+        transition: background-color ease .5s;
+        transition: box-shadow ease .5s;
+        &:hover {
+            cursor: pointer;
+            box-shadow: 1px 1px 1px 1px white;
+            border: 1px solid darken($color: white, $amount: 5);
+            background-color: rgba($color: #000000, $alpha: 0.85);
+            font-weight: 500;
+        }
+        Button{
+            color: $textColor;
+            background-color: rgba($color: #000000, $alpha: 0.8);
+            &:hover{
+                border: 2px solid $textColorHover;
+                color: $textColorHover;
+            }
+            &:focus {
+                border: 1px solid darken($color: $shadowColor, $amount: 10);
+                color: $textColor;
+            }
+        }
+    }
+}

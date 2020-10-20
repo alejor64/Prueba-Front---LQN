@@ -1,0 +1,72 @@
+.filmsButtonInfo_btn {
+    color: $textColor;
+    background-color: rgba($color: $black, $alpha: 0.8);
+    &:hover {
+        box-shadow: 1px 2px 1px 1px lighten($color: $shadowColor, $amount: 20);
+        border: 1px solid darken($color: $shadowColor, $amount: 10);
+        color: $textColor;
+        background-color: rgba($color: $black, $alpha: 0.8);
+    }
+    &:focus {
+        border: 1px solid darken($color: $shadowColor, $amount: 10);
+        color: $textColor;
+        background: none;
+    }
+}
+
+.filmsButtonInfo_modal {
+    p{
+        color: $textColorModal;
+        span{
+            font-weight: 500;
+            font-size: 16px;
+            color: $textColorModal;
+        }
+    }
+}
+
+.ant-modal-content{
+    background: url(../../images/darthWallPaper.jpg) no-repeat center center;
+    background-size: 100vh;
+    border: 2px solid $textColorModal;
+    box-shadow: 2px 3px 2px 2px $shadowColor;
+    button {
+        color: rgba($color: #fff, $alpha: 0.7);
+        &:hover{
+            color: $textColorModal;
+        }
+    }
+
+    .ant-modal-header{
+        background-color: $black;
+        .ant-modal-title{
+            text-align: center;
+            text-transform: uppercase;
+            color: $textColorModal;
+            font-size: 18px;
+        }
+    }
+
+    .ant-modal-footer{
+        background-color: rgba($color: $black, $alpha: 0.95);
+
+        button {
+            color: #000;
+            background-color: rgba($color: #fff, $alpha: 0.8);
+            border: 1px solid #fff;
+            &:hover{
+                background-color: #fff;
+                box-shadow: 1px 1px #5898c6;
+            }
+        }
+    }
+}
+
+.filmsButtonInfo_tag {
+    margin-left: 20px;
+    
+    .tag {
+        margin-bottom: 10px;
+        background-color: $textColorModal;
+    }
+}

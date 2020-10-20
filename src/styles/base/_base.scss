@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+}
+
+body {
+    padding: 25px;
+    background-image: url(../../images/background.png);
+}
+
+html {
+    --antd-wave-shadow-color: $shadowColor;
+}
